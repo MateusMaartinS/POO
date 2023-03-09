@@ -24,7 +24,7 @@ public class Ativ_1 {
         maua.cor = "acinzentado";
         maua.especiae = "jacaré-açu";
         maua.sexo = 'F';
-        maua.tamanho = 3;
+        maua.tamanho = 4;
         maua.quanditadeDentes = "50";
         
         Jacare renato = new Jacare();
@@ -47,5 +47,11 @@ public class Ativ_1 {
         rex.sexo = 'M';
         rex.tamanho = 7;
         rex.quanditadeDentes = "60";
+        
+        rex.morder();
+        jare.morder();
+        renato.morder();
+        maua.morder();
+        jonas.morder();
     }
 }
