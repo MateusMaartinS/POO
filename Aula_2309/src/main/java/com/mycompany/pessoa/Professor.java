@@ -4,14 +4,16 @@
  */
 package com.mycompany.pessoa;
 import java.util.*;
+
 /**
  *
  * @author aluno
  */
-public class Aluno extends Pessoa{
+public class Professor extends Pessoa{
     
-    public Aluno(String aNome, String aCpf, Date aData) {
+    public Professor(String aNome, String aCpf, Date aData) {
         super(aNome, aCpf, aData);
     }
-    public String matricula;
+    public double salario;
+    public String disciplina;
 }
